@@ -37,6 +37,7 @@ Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tomlion/vim-solidity'
+Plug 'deoplete-plugins/deoplete-clang'
 call plug#end()
 
 " open new split panes to right and below
@@ -44,7 +45,7 @@ set splitright
 set splitbelow
 
 let g:airline_powerline_fonts = 1
-let g:airline_theme='minimalist'
+let g:airline_theme='behelit'
 
 inoremap <A-j> <Esc>:m .+1<CR>==gi
 inoremap <A-k> <Esc>:m .-2<CR>==gi
